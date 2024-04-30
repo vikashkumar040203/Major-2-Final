@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+        
+        .service-card {
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        
+        .service-card h2 {
+            color: #333;
+        }
+        
+        .service-card p {
+            color: #666;
+            margin-top: 10px;
+        }
+        
+        .service-card a {
+            display: block;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .service-card a:hover {
+            background-color: #0056b3;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="service-card">
+            <h2>News</h2>
+            <p>Check out the latest news</p>
+            <a href="/news" target="_blank">Go to News</a>
+        </div>
+        <div class="service-card">
+            <h2>Check Reputation</h2>
+            <p>Verify reputation</p>
+            <a href="/home.html" target="_blank">Check Reputation</a>
+        </div>
+        <div class="service-card">
+            <h2>GRC Dashboard</h2>
+            <p>View GRC Dashboard</p>
+            <a href="/grc-dashboard" target="_blank">Go to GRC Dashboard</a>
+        </div>
+    </div>
+</body>
+</html>

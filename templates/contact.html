@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="/path/to/favicon.ico" />
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/about.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/contact.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../static/css/co   ntact.css" />
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <label class="logo">Threat Intel</label>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        
+        <li><a class="active" href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section>
+      <div>
+        <h1>Connect with Our Team</h1>
+      </div>
+      <div class="row1">
+        <div class="card">
+          <div class="circle">
+            <div class="imgBox">
+              <img src="https://media.licdn.com/dms/image/D5603AQFvVG3lI3M1DA/profile-displayphoto-shrink_800_800/0/1678191575525?e=1717632000&v=beta&t=WCDnrkzIpotM88pqHAZWckJv0GZwYyAXH2-fei6nP0k" alt="" />
+            </div>
+          </div>
+          <div class="content">
+            <a href="https://www.linkedin.com/in/akashbhardwaj/">
+              <center>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </center>
+            </a>
+            <h3>Dr. Akashdeep Bhardwaj
+            </h3>
+            <div class="textIcon">
+              <h4>Experienced Cybersecurity & Digital Forensics professional</h4>
+            </div>
+            <div class="textIcon2">
+              <h5>Project Mentor</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row2-wrapper">
+        <div class="row2">
+          <div class="card">
+            <div class="circle">
+              <div class="imgBox">
+                <img src="https://media.licdn.com/dms/image/D4D35AQECCDjs4QEYtQ/profile-framedphoto-shrink_800_800/0/1688929582108?e=1715025600&v=beta&t=r7gUpUDLzqW0j-SH38zacGddvyO4AfE4RnvAx6-LDs8" alt="" />
+              </div>
+            </div>
+            <div class="content">
+              <a href="https://www.linkedin.com/in/arpita-kumari-3ba47a207/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <h3>Arpita Kumari</h3>
+              <div class="textIcon">
+                <h4>Developer</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="circle">
+              <div class="imgBox">
+                <img src="https://media.licdn.com/dms/image/C4E03AQHhgF2KZR1PfA/profile-displayphoto-shrink_800_800/0/1625047562194?e=1720051200&v=beta&t=Ac1VbWvhMdIUfqzZtMqXEdawNDvaCNM2o2xGmwCNM7M" alt="" />
+              </div>
+            </div>
+            <div class="content">
+              <a href="https://www.linkedin.com/in/vivek-chandel-8317a0215/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <h3>Vivek singh Chandel</h3>
+              <div class="textIcon">
+                <h4>Developer</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="circle">
+              <div class="imgBox">
+                <img src="https://media.licdn.com/dms/image/C4D03AQH9NYBlDe6Wgg/profile-displayphoto-shrink_800_800/0/1659203817275?e=1720051200&v=beta&t=I4X1FeX8u_dKx11A2pJVny_Hw198PGYr7-0w27oUPlE" alt="" />
+              </div>
+            </div>
+            <div class="content">
+              <a href="https://www.linkedin.com/in/arihant-vardhan-91a15915a/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <h3>Arihant Vardhan</h3>
+              <div class="textIcon">
+                <h4>Developer</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="circle">
+              <div class="imgBox">
+                <img src="./static/images/vikash.jpg" alt="" />
+              </div>
+            </div>
+            <div class="content">
+              <a href="https://www.linkedin.com/in/vikash-kumar-064877207/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <h3>Vikash Kumar</h3>
+              <div class="textIcon">
+                <h4>Developer</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
