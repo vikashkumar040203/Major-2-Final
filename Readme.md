@@ -1,8 +1,8 @@
 
-# VIAA Threat Intell Platform
+#  Threat Intell Platform
 
 #### Download Project
-`git clone https://github.com/nerdynerd09/Threat-Intell-Project.git`
+`https://github.com/vikashkumar040203/Major-2-Final/
 
 #### Install requirements
 
